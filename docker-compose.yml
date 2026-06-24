@@ -75,7 +75,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: Uisrael.
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_dataTarea:/var/lib/postgresql/data
     networks:
       - microservices-net
 
@@ -84,7 +84,7 @@ networks:
     driver: bridge
 
 volumes:
-  postgres_data:
+  postgres_dataTarea:
 
 
 
